@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Tier Calculator</title>
+</head>
+<body>
+    <header>
+        <img src="plutus_icon.png" alt="Plutus Logo" width="175" height="175">
+    </header>
+
+    <section>
+        <h2 style="text-align: center;">Enter your Monthly Spending (£/€):</h2>
+        <input type="number" id="monthlySpending" placeholder="Monthly Spend" min="0">
+        <button onclick="recommendTiers()">Calculate Tiers</button>
+    </section>
+
+    <div class="hidden" id="tierRecommendations">
+        <div class="column-container">
+            <div class="column" id="column1"></div>
+            <div class="column" id="column2"></div>
+            <div class="column" id="column3"></div>
+            <div class="column" id="column4"></div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Created by Your <b>HomertonG</b>, Ethereum Wallet Address: <b>0x2bf341928B8F43c4222e9B1245CA1EBBB9c1C7Cf</b></p>
+
+</footer>
+
+</html>
