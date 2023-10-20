@@ -7,7 +7,7 @@ const stackingTier = [
   { Name: "No Stack - Redeem 200 PLU", PLURequired: 0, PercentageReward: 0.03, EligibleSpendingForRewards: 5000, NoOfPerks: 0 },
   { Name: "No Stack - Redeem 500 PLU", PLURequired: 0, PercentageReward: 0.03, EligibleSpendingForRewards: 10000, NoOfPerks: 0 },
   
-  { Name: "Hero - Redeem 20 PLU", PLURequired: 250, PercentageReward: 0.04, EligibleSpendingForRewards: 0, NoOfPerks: 4 },
+  { Name: "Hero - Redeem 0 PLU", PLURequired: 250, PercentageReward: 0.04, EligibleSpendingForRewards: 0, NoOfPerks: 4 },
   { Name: "Hero - Redeem 20 PLU", PLURequired: 250, PercentageReward: 0.04, EligibleSpendingForRewards: 1000, NoOfPerks: 4 },
   { Name: "Hero - Redeem 50 PLU", PLURequired: 250, PercentageReward: 0.04, EligibleSpendingForRewards: 2000, NoOfPerks: 4 },
   { Name: "Hero - Redeem 200 PLU", PLURequired: 250, PercentageReward: 0.04, EligibleSpendingForRewards: 5000, NoOfPerks: 4 },
