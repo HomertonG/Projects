@@ -37,11 +37,11 @@ const stackingTier = [
   { Name: "GOAT - Redeem 200 PLU", PLURequired: 2000, PercentageReward: 0.08, EligibleSpendingForRewards: 5000, NoOfPerks: 8 },
   { Name: "GOAT - Redeem 500 PLU", PLURequired: 2000, PercentageReward: 0.08, EligibleSpendingForRewards: 10000, NoOfPerks: 8 },
   
-  { Name: "Honey Badger - Redeem 0 PLU", PLURequired: 2000, PercentageReward: 0.09, EligibleSpendingForRewards: 0, NoOfPerks: 9 },
-  { Name: "Honey Badger - Redeem 20 PLU", PLURequired: 2000, PercentageReward: 0.09, EligibleSpendingForRewards: 1000, NoOfPerks: 9 },
-  { Name: "Honey Badger - Redeem 50 PLU", PLURequired: 2000, PercentageReward: 0.09, EligibleSpendingForRewards: 2000, NoOfPerks: 9 },
-  { Name: "Honey Badger - Redeem 200 PLU", PLURequired: 2000, PercentageReward: 0.09, EligibleSpendingForRewards: 5000, NoOfPerks: 9 },
-  { Name: "Honey Badger - Redeem 500 PLU", PLURequired: 2000, PercentageReward: 0.09, EligibleSpendingForRewards: 10000, NoOfPerks: 9 },
+  { Name: "Honey Badger - Redeem 0 PLU", PLURequired: 3000, PercentageReward: 0.09, EligibleSpendingForRewards: 0, NoOfPerks: 9 },
+  { Name: "Honey Badger - Redeem 20 PLU", PLURequired: 3000, PercentageReward: 0.09, EligibleSpendingForRewards: 1000, NoOfPerks: 9 },
+  { Name: "Honey Badger - Redeem 50 PLU", PLURequired: 3000, PercentageReward: 0.09, EligibleSpendingForRewards: 2000, NoOfPerks: 9 },
+  { Name: "Honey Badger - Redeem 200 PLU", PLURequired: 3000, PercentageReward: 0.09, EligibleSpendingForRewards: 5000, NoOfPerks: 9 },
+  { Name: "Honey Badger - Redeem 500 PLU", PLURequired: 3000, PercentageReward: 0.09, EligibleSpendingForRewards: 10000, NoOfPerks: 9 },
   
 
   ];
