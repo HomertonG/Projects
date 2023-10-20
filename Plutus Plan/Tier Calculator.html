@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="Tier Calculator.js"></script>
+    <title>Tier Calculator</title>
+</head>
+<div class="scrollable-container">
+<body>
+    <header>
+        <img src="plutus_icon.png" alt="Plutus Logo" width="175" height="175">
+    </header>
+    
+
+    <section>
+        <h2>Daily Price of Pluton (PLU)</h2>
+    </section>
+
+    <div class="column-price">
+        <div class="columnprice">
+            <h2>USD</h2>
+            <h2 id="usd-price">$0.00</h2>
+        </div>
+        <div class="column">
+            <h2>GBP</h2>
+            <h2 id="gbp-price">£0.00</h2>
+        </div>
+        <div class="column">
+            <h2>EUR</h2>
+            <h2 id="eur-price">€0.00</h2>
+        </div>
+    </div>
+
+
+    <section>
+        <h2>Enter your Monthly Spending (£/€):</h2>
+        <input type="number" id="monthlySpending" placeholder="Monthly Spend" min="0">
+        <button onclick="calculateTiers()">Calculate Tiers</button>
+    </section>
+
+    <div class="hidden" id="tierRecommendations">
+        <div class="column-container">
+            <div class="column" id="column1"></div>
+            <div class="column" id="column2"></div>
+            <div class="column" id="column3"></div>
+            <div class="column" id="column4"></div>
+        </div>
+    </div>
+
+    <section>
+    <!-- Buttons to toggle data display -->
+      <button onclick="toggleData('stackingTierContainer')">Show Stacking Tier</button>
+      <button onclick="toggleData('subscriptionTierContainer')">Show Subscription Tier</button>
+      <button onclick="toggleData('stackSubTierContainer')">Show StackSubTiers</button>
+    </section>  
+
+    <div id="stackingTierContainer">
+        <!-- Display stackingTier data here -->
+      </div>
+      <div id="subscriptionTierContainer">
+        <!-- Display subscriptionTier data here -->
+      </div>
+      <div id="stackSubTierContainer">
+        <!-- Display StackSubTiers data here -->
+      </div>
+      
+      
+</body>
+
+<footer>
+    <h3>The data displayed on this webpage is provided by CoinGecko. Please be aware that cryptocurrency prices are highly volatile and may change rapidly. I am not liable for the accuracy or reliability of the data.</h3>
+    <p>Created by <b>HomertonG</b></p>
+</footer>
+</div>
+</html>
